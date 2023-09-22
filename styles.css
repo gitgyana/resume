@@ -1,0 +1,76 @@
+body {
+    /* background-color: #A2C579; */
+    background-color: #94A684;
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+    font-size: larger;
+}
+
+#logo {
+    position: fixed;
+    height: 15em;
+    top: 40%;
+    left: 65%;
+    object-fit: cover;
+}
+
+#canvas {
+    background-color: #FAF2D3;
+    margin-left: 3%;
+    margin-right: 30%;
+    padding: 20px 0;
+    height: 100%;
+}
+
+#canvas > .brackets {
+    font-weight: bold;
+    color: #176B87;
+    margin: 1em;
+}
+
+#mainBlock {
+    padding: 0 10%;
+    margin-right: 2em;
+}
+
+.block {
+    display: flex;
+    gap: 10px;
+    margin: 0.5em 0;
+}
+
+.heading, .texts {
+    margin: 0;
+}
+
+.title {
+    margin: 0;
+    color: #176B87;
+}
+
+.details {
+    color: #219C90;
+    width: 80%;
+}
+
+.brackets {
+    margin: 0;
+    color: #176B87;
+}
+
+.lists {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.lists li::before {
+    content: ": "; 
+    font-weight: bolder;
+    color: #176B87 
+}
+
+a {
+    color: inherit;
+    font-style: italic;
+    font-family: 'Inconsolata', monospace;
+}
